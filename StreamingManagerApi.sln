@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StreamingManagerApi", "src\StreamingManagerApi\StreamingManagerApi.csproj", "{E9A91693-4A2D-4B17-8224-CB681D592F5C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{FD8ABAE7-530E-4781-A585-082DE24F20FC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{DFCB96E7-493B-4EF9-990E-B9AAD8422133}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StreamingManager.Domain", "src\StreamingManager.Domain\StreamingManager.Domain.csproj", "{7597EA4F-913F-4581-A2C3-140053B12A8A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StreamingManager.Infrastructure", "src\StreamingManager.Infrastructure\StreamingManager.Infrastructure.csproj", "{166AF294-4875-41D7-8656-CBC06E0E96F7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StreamingManager.Application", "src\StreamingManager.Application\StreamingManager.Application.csproj", "{407DECD1-CDB6-416B-B740-33516011D1AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StreamingManager.Test", "test\StreamingManager.Test\StreamingManager.Test.csproj", "{A2F73673-0201-4189-9712-10B53E69A80F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E9A91693-4A2D-4B17-8224-CB681D592F5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9A91693-4A2D-4B17-8224-CB681D592F5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9A91693-4A2D-4B17-8224-CB681D592F5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9A91693-4A2D-4B17-8224-CB681D592F5C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7597EA4F-913F-4581-A2C3-140053B12A8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7597EA4F-913F-4581-A2C3-140053B12A8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7597EA4F-913F-4581-A2C3-140053B12A8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7597EA4F-913F-4581-A2C3-140053B12A8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{166AF294-4875-41D7-8656-CBC06E0E96F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{166AF294-4875-41D7-8656-CBC06E0E96F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{166AF294-4875-41D7-8656-CBC06E0E96F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{166AF294-4875-41D7-8656-CBC06E0E96F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{407DECD1-CDB6-416B-B740-33516011D1AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{407DECD1-CDB6-416B-B740-33516011D1AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{407DECD1-CDB6-416B-B740-33516011D1AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{407DECD1-CDB6-416B-B740-33516011D1AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2F73673-0201-4189-9712-10B53E69A80F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2F73673-0201-4189-9712-10B53E69A80F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2F73673-0201-4189-9712-10B53E69A80F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2F73673-0201-4189-9712-10B53E69A80F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E9A91693-4A2D-4B17-8224-CB681D592F5C} = {FD8ABAE7-530E-4781-A585-082DE24F20FC}
+		{7597EA4F-913F-4581-A2C3-140053B12A8A} = {FD8ABAE7-530E-4781-A585-082DE24F20FC}
+		{166AF294-4875-41D7-8656-CBC06E0E96F7} = {FD8ABAE7-530E-4781-A585-082DE24F20FC}
+		{407DECD1-CDB6-416B-B740-33516011D1AE} = {FD8ABAE7-530E-4781-A585-082DE24F20FC}
+		{A2F73673-0201-4189-9712-10B53E69A80F} = {DFCB96E7-493B-4EF9-990E-B9AAD8422133}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1F2AACD4-B97E-4457-99D0-FB6742F8BA44}
+	EndGlobalSection
+EndGlobal
